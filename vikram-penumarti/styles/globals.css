@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 0, 0, 0; 
+  --background-end-rgb: 0, 0, 128;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+/* Define the background gradient colors */
+:root {
+    --background-start-rgb: 0, 0, 0;   /* Black */
+    --background-end-rgb: 4, 3, 54;   /* Navy Blue */
+}
+
+/* Apply the gradient to the body */
+body {
+    background: linear-gradient(
+        to bottom, 
+        rgb(var(--background-start-rgb)), 
+        rgb(var(--background-end-rgb))
+    );
+    color: rgb(var(--foreground-rgb));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
