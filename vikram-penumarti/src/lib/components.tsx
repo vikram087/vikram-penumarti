@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link';
 
 export function Homebar() {
@@ -33,13 +34,13 @@ export function Socials() {
   return (
     <div className="fixed inset-x-0 bottom-0 flex justify-center space-x-2">
       <a href="https://linkedin.com/in/vikram-penumarti" target="_blank" rel="noopener noreferrer">
-        <img src="/linkedin.png" alt="Github" width="80" height="80"/>
+        <Image src="/linkedin.png" alt="Github" width="80" height="80"/>
       </a>
       <a href="https://github.com/vikram087" target="_blank" rel="noopener noreferrer">
-        <img src="/github.png" alt="Github" width="80" height="80"/>
+        <Image src="/github.png" alt="Github" width="80" height="80"/>
       </a>
       <a href="https://www.instagram.com/vikrampenumarti/" target="_blank" rel="noopener noreferrer">
-        <img src="/insta.png" alt="Github" width="80" height="80"/>
+        <Image src="/insta.png" alt="Github" width="80" height="80"/>
       </a>
     </div>
   );
