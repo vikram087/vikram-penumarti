@@ -26,13 +26,11 @@ body {
     rgb(var(--background-start-rgb));
 } */
 
-/* Define the background gradient colors */
-:root {
-    --background-start-rgb: 0, 0, 0;   /* Black */
-    --background-end-rgb: 4, 3, 54;   /* Navy Blue */
+/* :root {
+    --background-start-rgb: 0, 0, 0;  
+    --background-end-rgb: 4, 3, 54;  
 }
 
-/* Apply the gradient to the body */
 body {
     background: linear-gradient(
         to bottom, 
@@ -43,4 +41,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+body {
+  background-color: black;
+  color: white; /* Or any other color for text */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

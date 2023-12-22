@@ -1,6 +1,7 @@
 // 'use client'
 
-import { Homebar, Socials } from '../lib/components'
+import '@/styles/globals.css'
+import { Homebar, Socials } from '@/lib/components'
 
 export default function Home() {
   return (

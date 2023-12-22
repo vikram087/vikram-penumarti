@@ -5,11 +5,13 @@ import Link from 'next/link';
 export function Homebar() {
   return (
     <div className="flex justify-center items-center">
-      {/* <button 
+      <Link 
+        href="/"
         className="text-orange-200 text-3xl border-r p-1 px-5 border-orange-200 hover:text-white"
       >
-        Projects  
-      </button> */}
+        About Me  
+      </Link>
+
       <Link 
         href="/projects"
         className="text-orange-200 text-3xl border-r p-1 px-5 border-orange-200 hover:text-white"
@@ -17,8 +19,12 @@ export function Homebar() {
         Projects  
       </Link>
 
-      <button className="text-orange-200 text-3xl border-r p-1 px-5 border-orange-200 hover:text-white">Boy Scouts</button>
-      <button className="text-orange-200 text-3xl p-1 px-5 border-orange-200 hover:text-white">About me</button>
+      <Link 
+        href="/boyscouts"
+        className="text-orange-200 text-3xl p-1 px-5 border-orange-200 hover:text-white"
+      >
+        Boy Scouts  
+      </Link>
     </div>
   );
 }

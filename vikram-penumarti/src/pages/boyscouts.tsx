@@ -3,20 +3,20 @@
 // import '@/styles/globals.css'
 import { Homebar, Socials } from '@/lib/components'
 
-export default function Projects() {
+export default function BoyScouts() {
   return (
     <div>
       <Homebar />
-      <ProjectsPage />
+      <BoyScoutsPage />
       <Socials />
     </div>
   );
 }
 
-function ProjectsPage() {
+function BoyScoutsPage() {
     return (
       <div className="text-white">
-        Projects Page Here
+        Boy Scouts Page Here
       </div>
     );
 }
