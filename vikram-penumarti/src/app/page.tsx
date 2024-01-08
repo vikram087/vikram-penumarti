@@ -27,7 +27,7 @@ function ImageAndTitle() {
       <div className="flex pl-10 pb-5 pt-20">
         <Image src="/portrait.jpg" alt="Vikram Penumarti" width="300" height="300"/>
         <div className="flex-1 text-center pr-80 place-self-center">
-          <p className="text-5xl">Hi, I'm Vikram.</p>
+          <p className="text-5xl">Hi, I&apos;m Vikram.</p>
         </div>
       </div>
     </div>
@@ -188,7 +188,7 @@ function Philmont() {
       <p className="px-10 text-lg pt-1 italic ">August 2019 & August 2021</p>
       <ul className="list-disc px-14 pt-1 text-xl">
         <li>The pinnicle of my Boy Scouts experience was attending the 2 week long backpacking trip in New Mexico called Philmont.</li>
-        <li>I went on Philmont two times, once as a crew leader in 2019, and once as a Chaplain's Aid in 2021.</li>
+        <li>I went on Philmont two times, once as a crew leader in 2019, and once as a Chaplain&apos;s Aid in 2021.</li>
         <li>Both my experiences were very different, once as a leader, and once as a member.</li>
         <li>
           <span>The crew I managed was</span>
@@ -199,8 +199,8 @@ function Philmont() {
         <li>Overall though, I loved them both equally, since I could be in the pure wilderness, with my friends, simply hiking, eating, and talking.</li>
         <li>I loved the experience so much, because it was stress-free, no need to worry about homework or anything else.</li>
         <li>Along with the stress-free lifestyle, we got the chance to do activities such as bouldering, or black powder rifle shooting, and much more, which led to a very fun experience.</li>
-        <li>Both times we faced a lot of challanges with burnout from hiking so much, homesickness, group conflicts, but in the end we enjoyed the experience, because it gave us a very different experience from what we're used to.</li>
-        <li>This expeirence offered us a detox from the fast-paced life we're used to, full of dopamine and distractions.</li>
+        <li>Both times we faced a lot of challanges with burnout from hiking so much, homesickness, group conflicts, but in the end we enjoyed the experience, because it gave us a very different experience from what we&apos;re used to.</li>
+        <li>This expeirence offered us a detox from the fast-paced life we&apos;re used to, full of dopamine and distractions.</li>
         <li>I saw the most beautiful nature ever, nebulas and stars in the sky, bears, snakes, and deer on the ground.</li>
         <li>No experience I have ever had can truly match the beauty and tranquility of when I went to Philmont.</li>
       </ul>
@@ -233,7 +233,7 @@ function AggieSportsAnalytics() {
         <li>
           <span>We are also using </span>
           <span className="text-blue-400">MongoDB </span>
-          <span>to map the user's joint angles to the ideal angles, and provide appropriate feedback on how to improve thier form.</span>
+          <span>to map the user&apos;s joint angles to the ideal angles, and provide appropriate feedback on how to improve thier form.</span>
         </li>
         <li>
           <span>We are coding this project using </span>
