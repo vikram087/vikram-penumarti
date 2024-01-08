@@ -1,31 +1,52 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link';
 
 export function Homebar() {
+
   return (
-    <div className="flex justify-center items-center">
-      <Link 
-        href="/"
+    <div className="bg-opacity-100 bg-black fixed top-0 w-full flex justify-center border-b border-orange-200 items-center">
+      <button 
         className="text-orange-200 text-3xl border-r p-1 px-5 border-orange-200 hover:text-white"
       >
         About Me  
-      </Link>
+      </button>
 
-      <Link 
-        href="/projects"
+      <button      
         className="text-orange-200 text-3xl border-r p-1 px-5 border-orange-200 hover:text-white"
       >
-        Projects  
-      </Link>
+        Work  
+      </button>
 
-      <Link 
-        href="/boyscouts"
+      <button 
+        className="text-orange-200 text-3xl border-r p-1 px-5 border-orange-200 hover:text-white"
+      >
+        Clubs  
+      </button>
+
+      <button 
+        className="text-orange-200 text-3xl border-r p-1 px-5 border-orange-200 hover:text-white"
+      >
+        Hackathons  
+      </button>
+
+      <button 
+        className="text-orange-200 text-3xl border-r p-1 px-5 border-orange-200 hover:text-white"
+      >
+        Personal Projects  
+      </button>
+
+      <button 
+        className="text-orange-200 text-3xl border-r p-1 px-5 border-orange-200 hover:text-white"
+      >
+        Coursework  
+      </button>
+
+      <button 
         className="text-orange-200 text-3xl p-1 px-5 border-orange-200 hover:text-white"
       >
         Boy Scouts  
-      </Link>
+      </button>
     </div>
   );
 }
@@ -39,9 +60,9 @@ export function Socials() {
       <a href="https://github.com/vikram087" target="_blank" rel="noopener noreferrer">
         <Image src="/github.png" alt="Github" width="80" height="80"/>
       </a>
-      <a href="https://www.instagram.com/vikrampenumarti/" target="_blank" rel="noopener noreferrer">
+      {/* <a href="https://www.instagram.com/vikrampenumarti/" target="_blank" rel="noopener noreferrer">
         <Image src="/insta.png" alt="Github" width="80" height="80"/>
-      </a>
+      </a> */}
     </div>
   );
 }

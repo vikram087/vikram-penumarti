@@ -26,7 +26,7 @@ body {
     rgb(var(--background-start-rgb));
 } */
 
-/* :root {
+:root {
     --background-start-rgb: 0, 0, 0;  
     --background-end-rgb: 4, 3, 54;  
 }
@@ -37,16 +37,16 @@ body {
         rgb(var(--background-start-rgb)), 
         rgb(var(--background-end-rgb))
     );
-    color: rgb(var(--foreground-rgb));
+    /* color: rgb(var(--foreground-rgb)); */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
-body {
+/* body {
   background-color: black;
-  color: white; /* Or any other color for text */
+  color: white; 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
